@@ -1,0 +1,20 @@
+{% extends 'base.jinja2' %}
+{% block content %}
+
+<h1>Create Review</h1>
+<!-- form action="/post/create" method= "POST" -->
+<form method= "POST">
+    <div>
+        <label for='title'>Movie Title</label>
+        <input type="text" name="title" />
+    </div>
+    <div>
+        <label for="content">Review</label>
+        <textarea name="content"></textarea>
+    </div>
+    <div>
+
+        <input type="submit" class="like" value="Submit" />
+    </div>
+</form>
+{% endblock %}
