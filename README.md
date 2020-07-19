@@ -5,11 +5,7 @@ Project Organization
 
     
     
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   
-    │   ├── processed      <- The final, canonical data sets for modeling.
+    ├── README.md          <- README for developers using this project.
     │   
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │   
