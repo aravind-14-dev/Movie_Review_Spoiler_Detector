@@ -42,5 +42,6 @@ Project Organization
 
     text_proc.py is the preprocessing function for the model.
     
+    JSON file is not included as it is a large file. It can be found at the following link https://www.kaggle.com/rmisra/imdb-spoiler-dataset
    
 
