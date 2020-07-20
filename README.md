@@ -5,24 +5,24 @@ Project Organization
 
     
     
-    ├── README.md          <- README for developers using this project.
+    ├── README.md          <- README for developers using this project
     │   
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Trained and serialized models
     │   
     ├── notebooks          <- Jupyter notebooks
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment
     |
-    ├── src                <- Source code for use in this project.
+    ├── src                <- Source code for use in this project
     │  
     │   ├── Flask App files         <- Scripts to run the Flask application
     │  
-    │   ├── GCP     <- Scripts to turn generate files for Google Cloud Platform
+    │   ├── GCP     <- Scripts to generate files for Google Cloud Platform
     |
-    │   ├── server.py        <- Scripts to train models and then use trained models to make
+    │   ├── server.py        <- Scripts for setting up the HTTP endpoint using Flask
     
     
-    The detector detects if the review has a spoiler or not using Naive Bayes algorithm.
+    The detector detects if the movie/TV show review has a spoiler or not using Naive Bayes algorithm.
 
     Flask files folder contains files for Flask web application implementation.
 
